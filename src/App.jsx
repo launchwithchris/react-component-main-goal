@@ -1,11 +1,14 @@
 import React from 'react';
 
-// DEFINE YOUR COMPONENT HERE
+function MainGoal() {
+    return <p>My main goal: Learn React from the ground up.</p>;
+}
 // IMPORTANT: Add "export" in front of your component - otherwise the automated tests won't work
 // ...
 
 // DO NOT EDIT THE APP COMPONENT NAME OR CONTENT
 // Except for outputting your custom component
+
 
 function App() {
   return (
@@ -31,8 +34,7 @@ function App() {
         of your function (e.g., <code>export function YOUR_COMPONENT_NAME</code>
         ).
       </p>
-      {/* DON'T CHANGE THE TEXT / CONTENT ABOVE */}
-      {/* OUTPUT YOUR COMPONENT HERE */}
+      <MainGoal />
     </div>
   );
 }
